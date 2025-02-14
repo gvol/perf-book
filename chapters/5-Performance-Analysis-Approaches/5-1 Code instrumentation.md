@@ -1,6 +1,6 @@
 ## Code Instrumentation {#sec:secInstrumentation}
 
-Probably the first approach for doing performance analysis ever invented is *code instrumentation*. It is a technique that inserts extra code into a program to collect specific runtime information. [@lst:CodeInstrumentation] shows the simplest example of inserting a `printf` statement at the beginning of a function to indicate if this function is called. After that, you run the program and count the number of times you see "foo is called" in the output. Perhaps every programmer in the world did this at some point in their career at least once.
+Probably the first approach for doing performance analysis ever invented is *code instrumentation*. It is a technique that inserts extra code into a program to collect specific runtime information. [@lst:CodeInstrumentation] shows the simplest example of inserting a `printf` statement at the beginning of a function to indicate if this function is called. After that, you run the program and count the number of times you see "foo is called" in the output. It's likely every programmer in the world has done this at some point in their career at least once.
 
 Listing: Code Instrumentation
 
